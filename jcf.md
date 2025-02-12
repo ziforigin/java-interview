@@ -292,7 +292,7 @@ _O(N)_. Время поиска элемента линейно пропорци
 [к оглавлению](#java-collections-framework)
 
 ## Какое худшее время работы метода `add()` для `LinkedList`?
-_O(1)_.
+_O(N)_. This is a tricky one. THe addition happens in O(1) but it takes O(n) to find the place to insert (unless it is the begignning or the end of the list of course).
 
 [к оглавлению](#java-collections-framework)
 
